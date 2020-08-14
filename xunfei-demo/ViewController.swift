@@ -64,7 +64,7 @@ class ViewController: UIViewController {
     }
     
     @objc func longPressAction(fromLongPressBtn longPress: UILongPressGestureRecognizer?) {
-        print("AIAction")
+        
         let currentPoint = longPress?.location(in: longPress?.view)
 
         if isStartRecord {
@@ -109,11 +109,46 @@ extension ViewController: IFlySpeechRecognizerDelegate {
     func onResults(_ results: [Any]!, isLast: Bool) {
         var resultString = ""
         let dic = results[0] as! [String:Any]
-        for key in dic {
+        
+        for key in dic.keys {
             resultString += "\(key)"
         }
+        
+        print(stringv(fromJson: resultString))
         print(resultString)
     }
+    
+    
+    func stringv(fromJson params: String?) -> String? {
+        if params == nil {
+            return nil
+        }
+
+        var tempStr = ""
+        if let data = params?.data(using: .utf8) {
+            do {
+                let resultDic = try JSONSerialization.jsonObject(with: data, options: []) as! [String: Any]
+                
+                let wordArray = resultDic["ws"] as! Array<[String: Any]>
+                for i in 0..<wordArray.count {
+                    let wsDic = wordArray[i]
+                    let cwArray = wsDic["cw"] as! Array<[String: Any]>
+                    for j in 0..<cwArray.count {
+                        let wDic = cwArray[j]
+                        let str = wDic["w"] as! String
+                        tempStr += str
+                    }
+                }
+            } catch  let error as NSError{
+                print(error)
+                return nil
+            }
+
+            
+        }
+        return tempStr
+    }
+
     func onEndOfSpeech() {
         isStartRecord = true
     }

@@ -13,6 +13,20 @@
 		B570DBC024E4430300CA7F08 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B570DBBE24E4430300CA7F08 /* Main.storyboard */; };
 		B570DBC224E4430600CA7F08 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B570DBC124E4430600CA7F08 /* Assets.xcassets */; };
 		B570DBC524E4430600CA7F08 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B570DBC324E4430600CA7F08 /* LaunchScreen.storyboard */; };
+		B570DBCE24E4438B00CA7F08 /* iflyMSC.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B570DBCD24E4438B00CA7F08 /* iflyMSC.framework */; };
+		B570DBD024E443BC00CA7F08 /* libc++.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = B570DBCF24E443B500CA7F08 /* libc++.tbd */; };
+		B570DBD324E446A500CA7F08 /* libz.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = B570DBD124E443C000CA7F08 /* libz.tbd */; };
+		B570DBD524E44BD600CA7F08 /* AddressBook.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B570DBD424E44BD600CA7F08 /* AddressBook.framework */; };
+		B570DBD724E44BDA00CA7F08 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B570DBD624E44BDA00CA7F08 /* AudioToolbox.framework */; };
+		B570DBD924E44BDD00CA7F08 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B570DBD824E44BDD00CA7F08 /* AVFoundation.framework */; };
+		B570DBDB24E44BE100CA7F08 /* Contacts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B570DBDA24E44BE100CA7F08 /* Contacts.framework */; };
+		B570DBDD24E44BE400CA7F08 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B570DBDC24E44BE400CA7F08 /* CoreGraphics.framework */; };
+		B570DBDF24E44BE800CA7F08 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B570DBDE24E44BE800CA7F08 /* CoreLocation.framework */; };
+		B570DBE124E44BED00CA7F08 /* CoreTelephony.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B570DBE024E44BED00CA7F08 /* CoreTelephony.framework */; };
+		B570DBE324E44BF100CA7F08 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B570DBE224E44BF100CA7F08 /* Foundation.framework */; };
+		B570DBE524E44BF500CA7F08 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B570DBE424E44BF500CA7F08 /* QuartzCore.framework */; };
+		B570DBE724E44BF900CA7F08 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B570DBE624E44BF900CA7F08 /* SystemConfiguration.framework */; };
+		B570DBE924E44BFC00CA7F08 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B570DBE824E44BFC00CA7F08 /* UIKit.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +38,21 @@
 		B570DBC124E4430600CA7F08 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B570DBC424E4430600CA7F08 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		B570DBC624E4430600CA7F08 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B570DBCD24E4438B00CA7F08 /* iflyMSC.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = iflyMSC.framework; path = "xunfei-demo/lib/iflyMSC.framework"; sourceTree = SOURCE_ROOT; };
+		B570DBCF24E443B500CA7F08 /* libc++.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = "libc++.tbd"; path = "usr/lib/libc++.tbd"; sourceTree = SDKROOT; };
+		B570DBD124E443C000CA7F08 /* libz.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libz.tbd; path = usr/lib/libz.tbd; sourceTree = SDKROOT; };
+		B570DBD224E4441500CA7F08 /* xunfei-demo-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "xunfei-demo-Bridging-Header.h"; path = "xunfei-demo/xunfei-demo-Bridging-Header.h"; sourceTree = SOURCE_ROOT; };
+		B570DBD424E44BD600CA7F08 /* AddressBook.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AddressBook.framework; path = System/Library/Frameworks/AddressBook.framework; sourceTree = SDKROOT; };
+		B570DBD624E44BDA00CA7F08 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		B570DBD824E44BDD00CA7F08 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		B570DBDA24E44BE100CA7F08 /* Contacts.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Contacts.framework; path = System/Library/Frameworks/Contacts.framework; sourceTree = SDKROOT; };
+		B570DBDC24E44BE400CA7F08 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		B570DBDE24E44BE800CA7F08 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		B570DBE024E44BED00CA7F08 /* CoreTelephony.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreTelephony.framework; path = System/Library/Frameworks/CoreTelephony.framework; sourceTree = SDKROOT; };
+		B570DBE224E44BF100CA7F08 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		B570DBE424E44BF500CA7F08 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		B570DBE624E44BF900CA7F08 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		B570DBE824E44BFC00CA7F08 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,6 +60,20 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B570DBDB24E44BE100CA7F08 /* Contacts.framework in Frameworks */,
+				B570DBD024E443BC00CA7F08 /* libc++.tbd in Frameworks */,
+				B570DBE124E44BED00CA7F08 /* CoreTelephony.framework in Frameworks */,
+				B570DBD324E446A500CA7F08 /* libz.tbd in Frameworks */,
+				B570DBDF24E44BE800CA7F08 /* CoreLocation.framework in Frameworks */,
+				B570DBE924E44BFC00CA7F08 /* UIKit.framework in Frameworks */,
+				B570DBE724E44BF900CA7F08 /* SystemConfiguration.framework in Frameworks */,
+				B570DBD924E44BDD00CA7F08 /* AVFoundation.framework in Frameworks */,
+				B570DBDD24E44BE400CA7F08 /* CoreGraphics.framework in Frameworks */,
+				B570DBD724E44BDA00CA7F08 /* AudioToolbox.framework in Frameworks */,
+				B570DBE524E44BF500CA7F08 /* QuartzCore.framework in Frameworks */,
+				B570DBD524E44BD600CA7F08 /* AddressBook.framework in Frameworks */,
+				B570DBCE24E4438B00CA7F08 /* iflyMSC.framework in Frameworks */,
+				B570DBE324E44BF100CA7F08 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -40,6 +83,7 @@
 		B570DBAC24E4430300CA7F08 = {
 			isa = PBXGroup;
 			children = (
+				B570DBCC24E4437F00CA7F08 /* Frameworks */,
 				B570DBB724E4430300CA7F08 /* xunfei-demo */,
 				B570DBB624E4430300CA7F08 /* Products */,
 			);
@@ -56,6 +100,7 @@
 		B570DBB724E4430300CA7F08 /* xunfei-demo */ = {
 			isa = PBXGroup;
 			children = (
+				B570DBD224E4441500CA7F08 /* xunfei-demo-Bridging-Header.h */,
 				B570DBB824E4430300CA7F08 /* AppDelegate.swift */,
 				B570DBBA24E4430300CA7F08 /* SceneDelegate.swift */,
 				B570DBBC24E4430300CA7F08 /* ViewController.swift */,
@@ -65,6 +110,27 @@
 				B570DBC624E4430600CA7F08 /* Info.plist */,
 			);
 			path = "xunfei-demo";
+			sourceTree = "<group>";
+		};
+		B570DBCC24E4437F00CA7F08 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B570DBE824E44BFC00CA7F08 /* UIKit.framework */,
+				B570DBE624E44BF900CA7F08 /* SystemConfiguration.framework */,
+				B570DBE424E44BF500CA7F08 /* QuartzCore.framework */,
+				B570DBE224E44BF100CA7F08 /* Foundation.framework */,
+				B570DBE024E44BED00CA7F08 /* CoreTelephony.framework */,
+				B570DBDE24E44BE800CA7F08 /* CoreLocation.framework */,
+				B570DBDC24E44BE400CA7F08 /* CoreGraphics.framework */,
+				B570DBDA24E44BE100CA7F08 /* Contacts.framework */,
+				B570DBD824E44BDD00CA7F08 /* AVFoundation.framework */,
+				B570DBD624E44BDA00CA7F08 /* AudioToolbox.framework */,
+				B570DBD424E44BD600CA7F08 /* AddressBook.framework */,
+				B570DBD124E443C000CA7F08 /* libz.tbd */,
+				B570DBCF24E443B500CA7F08 /* libc++.tbd */,
+				B570DBCD24E4438B00CA7F08 /* iflyMSC.framework */,
+			);
+			path = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -286,6 +352,11 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 9FC59XLT7P;
+				ENABLE_BITCODE = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/xunfei-demo/lib",
+				);
 				INFOPLIST_FILE = "xunfei-demo/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -293,6 +364,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "com.xunfei-demo";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "./xunfei-demo/xunfei-demo-Bridging-Header.h";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -304,6 +376,11 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 9FC59XLT7P;
+				ENABLE_BITCODE = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/xunfei-demo/lib",
+				);
 				INFOPLIST_FILE = "xunfei-demo/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -311,6 +388,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "com.xunfei-demo";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "./xunfei-demo/xunfei-demo-Bridging-Header.h";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
